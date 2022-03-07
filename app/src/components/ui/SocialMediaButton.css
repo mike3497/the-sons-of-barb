@@ -1,0 +1,20 @@
+.social-media-button {
+	width: 64px;
+	height: 64px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--orange);
+	border-radius: 50%;
+	text-decoration: none;
+}
+
+.social-media-button:hover {
+	filter: brightness(80%);
+}
+
+.social-media-button i {
+	font-size: 36px;
+	line-height: 1;
+	color: var(--white);
+}

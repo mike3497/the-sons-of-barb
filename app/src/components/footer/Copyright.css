@@ -1,0 +1,11 @@
+.footer-copyright {
+	height: 30px;
+	background-color: var(--white);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-copyright span {
+	font-size: 10px;
+}

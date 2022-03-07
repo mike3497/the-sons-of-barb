@@ -1,0 +1,25 @@
+.review-card {
+	background-color: var(--white);
+	padding: 20px;
+	border-radius: 8px;
+}
+
+.review-card__stars {
+	color: var(--orange);
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.review-card__review {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.review-card__reviewer {
+	font-size: 14px;
+	color: var(--tan);
+	text-align: center;
+	margin-bottom: 0px;
+}

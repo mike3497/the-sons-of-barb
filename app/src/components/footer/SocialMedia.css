@@ -1,0 +1,11 @@
+.footer-social-media {
+	background-color: var(--tan);
+	height: 96px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-social-media .social-media-button {
+	margin: 0px 4px;
+}

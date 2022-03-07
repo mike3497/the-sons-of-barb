@@ -1,0 +1,60 @@
+.latest-episode__info {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 5px;
+}
+
+.latest-episode__date {
+	background-color: var(--orange);
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 8px 0px 0px 8px;
+	font-family: 'Oswald', sans-serif;
+	padding: 12px 15px;
+}
+
+.latest-episode__day {
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 36px;
+	margin-bottom: 4px;
+}
+
+.latest-episode__month-year {
+	font-size: 24px;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.latest-episode__title {
+	background-color: var(--white);
+	font-weight: normal;
+	color: var(--darkBrown);
+	text-transform: uppercase;
+	font-size: 36px;
+	line-height: 36px;
+	font-family: 'Oswald', sans-serif;
+	padding: 26px;
+	border-radius: 0px 8px 8px 0px;
+	flex-grow: 1;
+}
+
+.latest-episode__video {
+	position: relative;
+	padding-bottom: 56.25%;
+	/* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.latest-episode__video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

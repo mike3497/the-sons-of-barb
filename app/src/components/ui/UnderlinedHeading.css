@@ -1,0 +1,6 @@
+.underlined-heading {
+	text-transform: uppercase;
+	line-height: 53px;
+	border-bottom: 8px solid var(--brown);
+	margin: 20px 0px 10px 0px;
+}

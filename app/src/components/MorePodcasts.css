@@ -1,0 +1,13 @@
+#more-podcasts .col-lg-4 {
+	margin-bottom: 20px;
+}
+
+#more-podcasts div.col-lg-4:last-of-type {
+	margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 992px) {
+	#more-podcasts .col-lg-4 {
+		margin-bottom: 0px;
+	}
+}

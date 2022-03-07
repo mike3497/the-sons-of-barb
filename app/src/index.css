@@ -1,0 +1,60 @@
+:root {
+	--tan: #decbb7;
+	--brown: #553d2e;
+	--cream: #f8f4f2;
+	--orange: #f06449;
+	--white: #ffffff;
+	--darkBrown: #110c09;
+}
+
+*,
+::after,
+::before {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 14px;
+	background-color: var(--cream);
+	color: var(--darkBrown);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+}
+
+h1 {
+	font-size: 72px;
+}
+h2 {
+	font-size: 64px;
+}
+h3 {
+	font-size: 48px;
+}
+h4 {
+	font-size: 36px;
+}
+h5 {
+	font-size: 24px;
+}
+h6 {
+	font-size: 18px;
+}
+
+p {
+	line-height: 150%;
+	margin: 0px 0px 20px 0px;
+}
